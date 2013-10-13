@@ -450,6 +450,12 @@ footer span strong {
     color: #7a7f81;
 }
 
+footer span strong a {
+    color: #7a7f81;
+    border: 0;
+    text-decoration: none;
+}
+
 div.version {
     background: #fff;
     border-radius: 5px;
