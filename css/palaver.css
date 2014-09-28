@@ -725,3 +725,7 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
         column-count:1;    
     }
 }
+
+ol li h3 {
+    line-height: 1.2 !important;
+}
