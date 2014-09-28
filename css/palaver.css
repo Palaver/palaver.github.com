@@ -31,6 +31,14 @@ a {
     transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out, background 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
 }
 
+ol a {
+    color: #3fa2ee;
+}
+
+ol a:hover{
+    color: #2f88cd;
+}
+
 
 * {
     -webkit-touch-callout:text;
