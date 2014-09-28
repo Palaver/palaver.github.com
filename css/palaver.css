@@ -701,7 +701,7 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
         display:none;
     }
 
-    section:last-of-type {
+    #iphone section:last-of-type {
         margin: 300px 0 0 0;
     }
 
