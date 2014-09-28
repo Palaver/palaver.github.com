@@ -12,3 +12,7 @@ $('header > nav li:nth-of-type(3)').click(function(){ $("body").animate({
     scrollTop: ($('body').height()-$(window).height()+30) 
 }, 1000); return false; });
 
+$('header > nav').click(function(){
+	$(this).find('li').toggleClass('show');
+});
+
