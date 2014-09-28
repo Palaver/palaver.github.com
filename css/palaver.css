@@ -681,9 +681,9 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
 
     header nav {
         width: 0px;
-        position: fixed;
-        top: 50px;
-        right: 15px;
+        position: absolute;
+        top: 40px;
+        right: 10px;
         z-index: 9999;
     }
 
@@ -712,7 +712,7 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
         font-size: 30px;
         position: absolute;
         display: block !important;
-        right: 15px;
+        right: 10px;
         top: -30px;
     }
 
