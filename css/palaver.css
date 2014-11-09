@@ -90,7 +90,7 @@ header h1 {
     padding: 0;
 }
 
-header ul {
+header > ul {
     position: absolute;
     padding: 0;
     margin: 0;
@@ -99,7 +99,7 @@ header ul {
     z-index: 2;
 }
 
-header ul li {
+header > ul li {
     color: #e6d9c6;
     font-family: 'AvenirBlack', sans-serif;
     display: none;
@@ -114,19 +114,19 @@ header ul li {
     transition: opacity 0.5s ease-in-out;
 }
 
-header ul li:first-child a {
+header > ul li:first-child a {
     padding: 41px 0 0 87px;
     margin: 0 0 0 -87px;
     display: block;
 }
 
-header ul li a {
+header > ul li a {
     color: #e6d9c6;
     font-family: 'AvenirBlack', sans-serif;
     font-size: 15px;
 }
 
-header ul:hover li {
+header > ul:hover li {
     width: 142px;
     display: block;
     
@@ -134,25 +134,25 @@ header ul:hover li {
     opacity: 1;
 }
 
-header ul:hover li:last-child {
+header > ul:hover li:last-child {
     border-bottom: none;
 }
 
-header ul:hover li:hover a {
+header > ul:hover li:hover a {
     color: #fff;
 }
 
-header ul li:first-child {
+header > ul li:first-child {
     display: block;
     opacity: 1;
 }
 
-header ul li i {
+header > ul li i {
     font-style: normal;
     font-family: 'AvenirItalic', sans-serif;
 }
 
-header nav {
+header nav ul {
     font-family: 'AvenirBlack', sans-serif;
     list-style: none;
     float: right;
@@ -620,7 +620,7 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
         width: 75px;
     }
 
-    header ul {
+    header > ul {
         display: none;
     }
 
@@ -671,7 +671,7 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
         text-indent: -999px;
     }
 
-    header ul {
+    header > ul {
         display: none;
     }
 
