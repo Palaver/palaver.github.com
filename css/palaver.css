@@ -541,6 +541,19 @@ footer ul li a {
     transition: opacity 0.3s ease-in-out;
 }
 
+footer ul li:first-child {
+    list-style: none;
+}
+
+footer ul li:first-child a {
+    width: 95px;
+}
+
+footer ul li:first-child img {
+    width: 100% !important;
+    height: 100% !important;
+    float: left;
+}
 footer ul li.facebook a { background-position: -422px -216px; opacity: 0.7; }
 footer ul li.github a { background-position: -452px -216px; opacity: 0.7; }
 footer ul li.twitter a { background-position: -482px -216px; opacity: 0.7;}
