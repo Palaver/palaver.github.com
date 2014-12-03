@@ -534,11 +534,16 @@ footer ul li a {
     text-indent: -500px;
     overflow: hidden;
     margin-right: 10px;
+    color: #5fa8f2;
 
-    -webkit-transition: opacity 0.3s ease-in-out;
-    -moz-transition: opacity 0.3s ease-in-out;
-    -o-transition: opacity 0.3s ease-in-out;
-    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+footer ul li a:hover {
+    color: #3e6aad;
 }
 
 footer ul li:first-child {
