@@ -190,7 +190,7 @@ header h2 {
 }
 
 header > p {
-    text-shadow: 0px 1px 20px rgba(0,0,0,1), 0px 1px 0px rgba(0,0,0,0.4);
+    text-shadow: 0px 1px 20px rgba(0,0,0,1), 0px 1px 0px rgba(0,0,0,0.2);
     color: white;
     max-width: 600px;
     margin-left: auto;
@@ -665,7 +665,7 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
     }
 
     body#iphone aside {
-        margin-top: 280px;
+        margin-top: 320px;
     }
 
     section:last-of-type input:nth-of-type(3) {
@@ -686,6 +686,10 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
 
     header {
         width: 95%;
+    }
+
+    body#iphone aside {
+        margin-top: 400px;
     }
 
     header h1 {
@@ -744,7 +748,7 @@ body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
     }
 
     #iphone section:last-of-type {
-        margin: 300px 0 0 0;
+        margin: 380px 0 0 0;
     }
 
     section:last-of-type article:nth-of-type(1){
