@@ -81,6 +81,7 @@ header h1 {
     float: left;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 header > ul {
