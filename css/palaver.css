@@ -602,7 +602,7 @@ mark {
 }
 
 /* FAQ */
-body#faq ol {
+body#faq > section > ol {
     -moz-column-count:3;
     -webkit-column-count:3;
     column-count:3;
@@ -610,11 +610,14 @@ body#faq ol {
     margin: 0;
 }
 
-body#faq ol li { display: inline-block; }
-body#faq ol li h3 { padding: 0; margin: 0; }
-body#faq ol li p { color: #505050; padding: 0; margin: 7px 0 25px;}
+body#faq > section > ol > li { display: inline-block; }
+body#faq > section > ol > li h3 { padding: 0; margin: 0; }
+body#faq > section > ol > li p { color: #505050; padding: 0; margin: 7px 0 25px;}
 
-
+body#faq > section > ol ol li {
+    color: #505050;
+    margin: 0 0 0 -17px;
+}
 @media screen and (max-width: 1090px) {
     body { 
         width: 860px;
