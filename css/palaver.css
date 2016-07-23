@@ -331,20 +331,20 @@ body#iphone aside {
 video { display: none; }
 
 /* download now button */
-section:nth-of-type(4) {
+section.cta {
     float: left;
     width:100%;
     text-align: center;
     padding: 60px 0 60px 0;
 }
 
-section:nth-of-type(4) p {
+section.cta p {
     color: #a9a8a8;
     font-size:14px;
     margin: 10px 0 10px 0;
 }
 
-section:nth-of-type(4) a {
+section.cta a {
     background: url(../images/appstore.png);
     background-size: 100% 100%;
     width: 175px;
@@ -355,7 +355,7 @@ section:nth-of-type(4) a {
     opacity: 0.7;
 }
 
-section:nth-of-type(4) a:hover {
+section.cta a:hover {
     opacity: 1;
 }
 
